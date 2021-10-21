@@ -1,0 +1,107 @@
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #4e54c8;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 18%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 11%;
+    width: 102px;
+    height: 102px;
+    bottom: -102px;
+    animation-delay: 4s;
+}
+.background li:nth-child(2) {
+    left: 80%;
+    width: 149px;
+    height: 149px;
+    bottom: -149px;
+    animation-delay: 6s;
+}
+.background li:nth-child(3) {
+    left: 10%;
+    width: 189px;
+    height: 189px;
+    bottom: -189px;
+    animation-delay: 10s;
+}
+.background li:nth-child(4) {
+    left: 63%;
+    width: 127px;
+    height: 127px;
+    bottom: -127px;
+    animation-delay: 14s;
+}
+.background li:nth-child(5) {
+    left: 70%;
+    width: 142px;
+    height: 142px;
+    bottom: -142px;
+    animation-delay: 18s;
+}
+.background li:nth-child(6) {
+    left: 12%;
+    width: 191px;
+    height: 191px;
+    bottom: -191px;
+    animation-delay: 22s;
+}
+.background li:nth-child(7) {
+    left: 38%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 26s;
+}
+.background li:nth-child(8) {
+    left: 66%;
+    width: 103px;
+    height: 103px;
+    bottom: -103px;
+    animation-delay: 30s;
+}
+.background li:nth-child(9) {
+    left: 89%;
+    width: 119px;
+    height: 119px;
+    bottom: -119px;
+    animation-delay: 32s;
+}
